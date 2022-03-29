@@ -10,6 +10,12 @@
 
 自己实现的jar包，处理起sql可能功能有限，支持变量，session管理等诸多问题，那我们可不可以既用spark-sql又用cluster模式呢？答案是可以，下面是分析过程。
 
+# 编译&打包
+
+```
+ mvn clean scala:compile compile package
+```
+
 详情参考：
 ```
 作者：kazke
